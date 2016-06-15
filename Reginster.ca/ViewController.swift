@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Reginster.ca
+//  Idea.ca
 //
 //  Created by fwsstaff adminsitrator on 2016-05-17.
 //  Copyright © 2016 Register.ca Inc. All rights reserved.
