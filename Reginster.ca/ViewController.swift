@@ -80,6 +80,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         ErrorMessage.hidden = true
         //ErrorMessage.borderStyle = UITextBorderStyleNone
         
+        //Share cookies between different servers
+        NSHTTPCookieStorage.sharedHTTPCookieStorage().cookieAcceptPolicy = NSHTTPCookieAcceptPolicy.Always
+        
         //Attach tap gesture recognizer to mask
         let selector : Selector = #selector(ViewController.maskViewTouch(_:))
         let tapGesture = UITapGestureRecognizer(target: self, action: selector)
